@@ -2,9 +2,28 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: 20px;
+  list-style-type: none;
+}
+
+li {
+  margin-right: 20px;  
+  color: aliceblue;
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(157, 173, 173);
+  border: 1px solid black;
+}
+
+.Active-Links {
+ color: red;
 }
 
 @media (prefers-reduced-motion: no-preference) {
